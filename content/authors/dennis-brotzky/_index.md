@@ -5,8 +5,8 @@ bio: Photographer, mobile filmmaker, and experience designer based in Brooklyn, 
 avatar: "/images/steven-chu-headshot-comp.jpg"
 featured: true
 social:
-- title: unsplash
-  url: https://unsplash.com
+- title: Branding & Product Design Studio
+  url: https://stevenchustudio.com
 - title: github
   url: https://github.com
 - title: github
