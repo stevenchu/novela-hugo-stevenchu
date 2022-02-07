@@ -2,7 +2,7 @@
 title: Steven Chu
 bio: Photographer, mobile filmmaker, and experience designer based in Brooklyn, NY.
   Originally from Los Angeles.
-avatar: "/images/steven-chu-headshot-comp.jpg"
+avatar: "/v1644204655/avatar/steven-chu-headshot-comp_yfwvxa.jpg"
 social:
 - title: github
   url: https://stevenchustudio.com
