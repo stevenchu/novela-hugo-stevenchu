@@ -5,12 +5,12 @@ bio: Photographer, mobile filmmaker, and experience designer based in Brooklyn, 
 avatar: "/images/steven-chu-headshot-comp.jpg"
 featured: true
 social:
+- title: 'Event & Documentary Photos '
+  url: https://chuubie.com
 - title: Branding & Product Design Studio
   url: https://stevenchustudio.com
 - title: LinkedIn
   url: https://linkedin.com/in/stevenchu
-- title: github
-  url: https://github.com
 - title: github
   url: https://github.com
 - title: github
