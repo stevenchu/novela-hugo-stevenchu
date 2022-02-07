@@ -8,151 +8,29 @@ timeToRead: 3
 authors: []
 
 ---
-Hello test est, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+**Photography** by [Steven Chu](http://stevenchu.com/)  
+**Styling** by Cliff Hoppus at Artists by Timothy Priano  
+**Hair** by Linh Nguyen for PR at Partners  
+**Makeup** by Aeriel Payne using M.A.C. Cosmetics  
+**Models** Frey Mudd, Mikael Larsson & Evan Santoro @ Red Model Management, Marshall Brockley & Nick W @ Request Model Management NY, Thomas Hassler @ [Fusion Models](http://models.com/agency/Fusion-Models), Luca Schmitz @ [New York Model Management](http://models.com/agency/New-York-Model-Management)  
+**Special Thanks** to [Brian Kish Inc.](http://briankish.com/) New York for loan of Italian art pieces.
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+![](/v1644206252/photography/academy%20of%20the%20frozen/academy_of_the_frozen-1_intro_msom7a.jpg)
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+![](/v1644206252/photography/academy%20of%20the%20frozen/academy_of_the_frozen-2_frey_mudd_rc7nwx.jpg)
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
+![](/v1644206252/photography/academy%20of%20the%20frozen/academy_of_the_frozen-3_evan_santoro1_tio8z6.jpg)
 
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
+![](/v1644206252/photography/academy%20of%20the%20frozen/academy_of_the_frozen-4_nick_w_fwzexp.jpg)
 
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
+![](/v1644206252/photography/academy%20of%20the%20frozen/academy_of_the_frozen-5_marshall_brockley_mmt5hh.jpg)
 
-```js
-import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import styled from "@emotion/styled";
+![](/v1644206252/photography/academy%20of%20the%20frozen/academy_of_the_frozen-6_evan_santoro2_xzype7.jpg)
 
-import * as SocialIcons from "../../icons/social";
-import mediaqueries from "@styles/media";
+![](/v1644206252/photography/academy%20of%20the%20frozen/academy_of_the_frozen-7_mikael_larsson_vh1fmj.jpg)
 
-const icons = {
-  dribbble: SocialIcons.DribbbleIcon,
-  linkedin: SocialIcons.LinkedinIcon,
-  twitter: SocialIcons.TwitterIcon,
-  facebook: SocialIcons.FacebookIcon,
-  instagram: SocialIcons.InstagramIcon,
-  github: SocialIcons.GithubIcon,
-};
+![](/v1644206252/photography/academy%20of%20the%20frozen/academy_of_the_frozen-8_thomas_hassler_ayhbmd.jpg)
 
-const socialQuery = graphql`
-  {
-    allSite {
-      edges {
-        node {
-          siteMetadata {
-            social {
-              name
-              url
-            }
-          }
-        }
-      }
-    }
-  }
-`;
+![](/v1644206252/photography/academy%20of%20the%20frozen/academy_of_the_frozen-9_luca_schmitz_cz2lcq.jpg)
 
-function SocialLinks({ fill = "#73737D" }: { fill: string }) {
-  const result = useStaticQuery(socialQuery);
-  const socialOptions = result.allSite.edges[0].node.siteMetadata.social;
-
-  return (
-    <>
-      {socialOptions.map(option => {
-        const Icon = icons[option.name];
-
-        return (
-          <SocialIconContainer
-            key={option.name}
-            target="_blank"
-            rel="noopener"
-            data-a11y="false"
-            aria-label={`Link to ${option.name}`}
-            href={option.url}
-          >
-            <Icon fill={fill} />
-          </SocialIconContainer>
-        );
-      })}
-    </>
-  );
-}
-```
-
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
-
-# This is a primary heading
-
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-## This is a secondary heading
-
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
-
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-***
-
-Hyphens
-
-***
-
-Asterisks
-
-***
-
-Underscores
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
-
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-1. First ordered list item
-2. Another item
-   ⋅⋅* Unordered sub-list.
-3. Actual numbers don't matter, just that it's a number
-   ⋅⋅1. Ordered sub-list
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-* Unordered list can use asterisks
-
-
-* Or minuses
-
-
-* Or pluses
+![](/v1644206252/photography/academy%20of%20the%20frozen/academy_of_the_frozen-10_ending_vvcbze.jpg)
