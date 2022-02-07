@@ -11,9 +11,5 @@ social:
   url: https://stevenchustudio.com
 - title: LinkedIn
   url: https://linkedin.com/in/stevenchu
-- title: github
-  url: https://github.com
-- title: github
-  url: https://github.com
 
 ---
