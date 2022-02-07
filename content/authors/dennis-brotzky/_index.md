@@ -7,8 +7,8 @@ featured: true
 social:
 - title: Branding & Product Design Studio
   url: https://stevenchustudio.com
-- title: github
-  url: https://github.com
+- title: LinkedIn
+  url: https://linkedin.com/in/stevenchu
 - title: github
   url: https://github.com
 - title: github
