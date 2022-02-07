@@ -10,7 +10,7 @@ social:
   url: https://stevenchustudio.com
 - title: 'Event & Documentary Photos '
   url: https://chuubie.com
-featured: false
+featured: true
 draft: true
 
 ---
